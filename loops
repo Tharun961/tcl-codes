@@ -1,0 +1,16 @@
+for loop 
+syntax
+for {initialization} {condition} {increment} {statement (s)}
+
+example 1
+% for {set i 10} {$i < 20} { incr i} {puts "value of i :$i"}
+value of i :10
+value of i :11
+value of i :12
+value of i :13
+value of i :14
+value of i :15
+value of i :16
+value of i :17
+value of i :18
+value of i :19
