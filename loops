@@ -2,7 +2,7 @@ for loop
 syntax
 for {initialization} {condition} {increment} {statement (s)}
 
-example 1
+Example 1
 % for {set i 10} {$i < 20} { incr i} {puts "value of i :$i"}
 value of i :10
 value of i :11
@@ -14,3 +14,18 @@ value of i :16
 value of i :17
 value of i :18
 value of i :19
+
+Example 2
+
+% for {set a 10} {$a >= 0} {incr a -1} {puts "value of a is decremented: $a"};
+value of a is decremented: 10
+value of a is decremented: 9
+value of a is decremented: 8
+value of a is decremented: 7
+value of a is decremented: 6
+value of a is decremented: 5
+value of a is decremented: 4
+value of a is decremented: 3
+value of a is decremented: 2
+value of a is decremented: 1
+value of a is decremented: 0
